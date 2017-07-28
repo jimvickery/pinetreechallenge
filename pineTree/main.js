@@ -23,7 +23,7 @@ buttonElement = document.getElementById("getTree");
 // let startNum = document.getElementById("numberpressed");
 // let char = document.getElementById("charpredded");
 
-let treePlaceHolder = document.getElementById("tree");
+// let treePlaceHolder = document.getElementById("tree");
 
 	function pineTree(n, char) {
 		var answer = "";
@@ -59,7 +59,7 @@ numbPlaceholder.addEventListener("keyup", function(event){
 //add click event to submit button
 buttonElement.addEventListener("click", function() {
 	let result =  pineTree(startNum, char);
-	treePlaceHolder.innerText = result
+	// treePlaceHolder.innerText = result;
 	console.log(result);
 
 });
